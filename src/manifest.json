@@ -3,7 +3,9 @@
   "version": "0.0.2",
   "options_page": "options.html",
   "background": {
-    "page": "background.html"
+    "scripts": [
+      "hotReload.bundle.js"
+    ]
   },
   "browser_action": {
     "default_popup": "popup.html",
